@@ -1,0 +1,20 @@
+# CLAUDE.md §6: state, 자격 증명, 비밀정보는 Git에 커밋하지 않는다.
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfplan
+*.plan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
